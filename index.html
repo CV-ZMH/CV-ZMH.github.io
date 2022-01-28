@@ -1,0 +1,940 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+
+  <title>Moe Htoo | Computer Vision Engineer</title>
+  <link rel="shortcut icon" href="/assets/img/favicon/micon.jpg" type="image/x-icon">
+	<link rel="icon" href="/assets/img/favicon/m-612.jpg" type="image/x-icon">
+
+  <!-- Open Graph-->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Moe Htoo | Computer Vision Engineer" />
+  <meta property="og:description" content="Computer Vision Engineer" />
+  <meta property="og:url" content="https://CV-ZMH.github.io/" />
+  <meta property="og:site_name" content="Moe Htoo | Computer Vision Engineer" />
+  <meta property="article:publisher" content="https://CV-ZMH.github.io/" />
+
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <!-- Navigation Menu-->
+  <!-- Nav class 1 -->
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="/assets/img/profile_pic.png" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+
+        <!-- Resume disabled now! -->
+        <!-- <a aria-label="Open Moe's resume in a new tab"
+          href="#" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li> -->
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Moe Htoo</a><span
+        class="black-text">Computer Vision Engineer</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <!-- <li class="bold">
+        <a aria-label="Navigate to the Blog Posts section" href="#blogposts" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Blog Posts</span></a>
+      </li> -->
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      <!-- </li>
+      <li class="bold">
+        <a aria-label="Open Moe's Resume in a new tab"
+          href="" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li> -->
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Zin Moe Htoo.</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+
+              <h5>I have a great passion for high-tech solutions to address real-world problems with my background in Deep Learning and Machine Learning.
+                 In 2018, I have focused on the field computer vision as an intermediate field because I believe that sooner or later AI will inevitably impact all aspects of our lives and industries, particularly how people make communication and share knowledge.
+              </h5>
+
+
+            </div>
+          <div class="row d-flex justify-content-center align-items-center h-100">
+         </div>
+
+
+            <div class="social">
+              <a href="https://www.linkedin.com/in/zin-moe-htoo/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/cv-zmh/" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text">
+
+        <p>
+          I've 3+ years of work experience in Computer Vision field and a Bachelor Degree in Electrical and Electronics.
+          I'm a self-taught, fast learner with good problem solving skill, and keen interested in building and training SOTA deep learning models from scratch with custom datasets.
+          I'm energetic to master in computer vision and deep learning in order to form machine vision as competent as human vision.
+        </p>
+        <p>
+
+        <ul>
+          <li><b>Projects</b>: image classification, face-recognition, object detection, semantic segmentation, object tracking,
+            pose estimation, action recognition and depth estimation.
+          </li>
+          <li><b>Platform:</b> Linux, Unix, Windows</li>
+          <li><b>Languages:</b> Python (Proficient), Aruino</li>
+          <li><b>Frameworks:</b> pytorch, keras, tensorFlow, fastai, detectron2, onnx, tensorrt</li>
+          <li><b>Libraries:</b> opencv, scikit-learn, numpy, pandas, matplotlib, seaborn, tensorboard</li>
+          <li><b>Development:</b> Git, Docker, Docker, Git, Github, Debugging, Anaconda, Jupyter Notebook, Spyder,  Markdown
+        </ul>
+
+        </p>
+
+        <!-- <p>
+          I am looking for an opportunity to join research challenges in computer vision. </p>
+        </p> -->
+      </div>
+    </section>
+
+    <!-- Third Section: Experience -->
+
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+
+        <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.globalwalkers.co.jp/en/mmr/" target="_blank"><img alt="gw logo"
+                    src="/assets/img/gw_logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.globalwalkers.co.jp/en/mmr/" target="_blank"
+                      class="teal-text hoverline">Global Walkers Myanmar</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Senior AI Engineer, Computer Vision</div>
+            <ul>
+              <li>Responsible for the research, design, and implementation of machine learning and computer vision
+                solutions for real world projects.
+              </li>
+              <li>
+                Utilize SOTA models and papers for building and training neural nets with different datasets to solve problems
+                 like object detection, image segmentation, human pose estimation, object tracking, action recognition and  depth estimation.
+              </li>
+              <li>
+                Develop object detection projects for real world datasets training and evaluation using YOLOv3-v4-v5, YOLOX, CenterNet, SwinTransformer, Faster RCNN, RetinaNet models.
+              </li>
+              <li>
+                Develop efficient, scalable baseline code for complex projects like human action recognition using skeleton based methods and temporal action localization methods.
+              </li>
+              <li>
+                Develop semantic segmentation models for real world datasets training and evaluation using SegFormer, Unet, DeepLabv3, HrNet.
+              </li>
+              <li>
+                Research and develop object tracking models with deepsort, centertrack and FairMOT.
+              </li>
+              <li>
+                Design and develop production ready code in python.
+              </li>
+
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>December 2019 - present | Yangon, Myanmar</span>
+          </div>
+        </div>
+
+        <!-- 2nd Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="http://metro-myanmar.com/Eindex.html" target="_blank"><img alt="metro logo"
+                    src="/assets/img/metro_logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="http://metro-myanmar.com/Eindex.html" target="_blank"
+                      class="teal-text hoverline">Metro IT and Japanese Language Center Co., Ltd.</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">AI Engineer, Computer Vision</div>
+            <ul>
+              <li>Responsible for the research, design, and implementation of machine learning and computer vision solutions for real world projects.
+              </li>
+              <li>
+                Research and develop face recognition and human motion analysis projects using different background subtraction algorithms, image filters, morphology operations, HOG and SVM.
+              </li>
+              <li>
+                Research and develop face recognition and detector based action recognition projects using ResNet, VGG16, YOLOv3, MTCNN, FaceNet.
+              </li>
+              <li>
+                Develop people tracking system using centroid tracker with yolov3.
+              </li>
+
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>June 2019 - November 2019 | Yangon, Myanmar</span>
+          </div>
+        </div>
+
+        <!-- 1st Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://isgm2.com/" target="_blank"><img alt="isgm logo"
+                    src="/assets/img/isgm_logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://isgm2.com/" target="_blank"
+                      class="teal-text hoverline">ICT Star Group Myanmar Co., Ltd.</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Junior Research & Development Engineer</div>
+            <ul>
+              <li>Responsible for researching in the latest technologies like IoT and AI trends, and giving presentations of the prototype results to the managers and CEO.
+              </li>
+              <li>
+                Develop object detection, face recognition and color tracker prototypes using tensorflow and opencv.
+              </li>
+              <li>
+                Implement self balancing robot with arduino and raspberry pi.
+              </li>
+
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>November 2018 - May 2019 | Yangon, Myanmar</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Fourth Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal" style="margin-bottom: 0">PROJECTS</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Object Detection Projects -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Handwritten Detection" src="/assets/img/img/handwritten_cover.jpg"
+                  style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Handwritten Detection<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Handwritten Line Text Recognition using Deep Learning with Tensorflow
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Flask, HTML, CSS, Bootstrap, Tensorflow, OpenCV</li>
+                  <li>This is my major project which I do with quiet research and found the state-of-the-art
+                    architecture for real-time handwritten recognition with CER 4.32%.</li>
+                  <li>Uses CNN, LSTM, CTC loss function and trained on an IAM dataset with a self-created dataset that
+                    can detect
+                    handwritten text in real-time.</li>
+                  <li>Perform data augmentation to make a robust model and improve accuracy.</li>
+                  <li>Also make some changes on the current architecture which is able to detect handwritten images in
+                    Devnagari
+                    Script with CER 8.32%.</li>
+
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit "
+                    href="https://medium.com/swlh/learn-and-use-handwritten-line-text-recognition-using-deep-learning-with-tensorflow-b661434b5e3b"
+                    target="_blank" data-position="top" data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/sushant097/Handwritten-Line-Text-Recognition-using-Deep-Learning-with-Tensorflow"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Devnagari Handwritten Recogntion -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Nepali Handwritten Detection" src="/assets/img/img/Devnagari_Word_Recognition_final.gif"
+                  style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Nepali Handwritten Detection<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Nepali Handwritten Line Text Recognition using Deep Learning with Tensorflow
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Flask, HTML, CSS, Bootstrap, Tensorflow, OpenCV </li>
+                  <li>This is my major project which I do with quiet research and found the state-of-the-art
+                    architecture for real-time handwritten recognition with CER 4.32%.</li>
+                  <li>Uses CNN, LSTM, CTC loss function and trained on an IAM dataset with a self-created dataset that
+                    can detect
+                    handwritten text in real-time.</li>
+                  <li>Perform data augmentation to make a robust model and improve accuracy.</li>
+                  <li>Also make some changes on the current architecture which is able to detect Nepali handwritten
+                    images in Devnagari
+                    Script with CER 10.32%.</li>
+
+
+                </ul>
+                <div class="card-action">
+                  <!-- <a aria-label="Visit " href="https://medium.com/swlh/learn-and-use-handwritten-line-text-recognition-using-deep-learning-with-tensorflow-b661434b5e3b" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a> -->
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/sushant097/Devnagari-Handwritten-Word-Recongition-with-Deep-Learning"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Neural Style Transfer -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Neural Style Transfer" src="/assets/img/img/medium_nst.png" style="height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Neural Style Transfer<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Neural Style Transfer Paper Implementation with PyTorch.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Neural Style Transfer Paper Implemenation with PyTorch</li>
+                  <li>Try to go through all the techniques mentioned in the [paper](https://arxiv.org/abs/1508.06576) .
+                  </li>
+
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit "
+                    href="https://susant.medium.com/basic-intuition-on-neural-style-transfer-idea-c5ac179d1530"
+                    target="_blank" data-position="top" data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/sushant097/Neural-Style-Transfer-Implementation" target="_blank"
+                    data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nepali POEM Generation -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="quiz app" src="/assets/img/img/poem-generator.jpg" style="height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Nepali Poem Generation<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A Nepali POEM Generation using AI
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Numpy, Tensorflow, keras, NLP</li>
+                  <li>This project use the char-rnn model.</li>
+                  <li> Train on Nepali POEM by Adikabi "Laxmi Prasad Devkota" who is pioneer in Nepali Literature with
+                    more than 200k characters.</li>
+                  <li>The char-RNN model is here used to generate the Nepali Poem </li>
+                  <li>Accuracy will be increase if more amount of data is available.</li>
+                </ul>
+                <div class="card-action">
+                  <!-- <a aria-label="Visit " href="" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a> -->
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/sushant097/Nepali-Poet-Generation-with-char-RNN-model" target="_blank"
+                    data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Reverse Image Search Engne -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="quiz app" src="/assets/img/img/reverse_img_search.jpeg" style=" height: 100%; width: 100%"
+                  class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Reverse Image Search Engine with Python<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Reverse Search Engine with Transfer Learning and K nearest-neighbors.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Numpy, Scikit-learn,Tensorflow v2, Flask</li>
+                  <li>Image Search Engine using Deep Learning Model (ResNet50)
+                  </li>
+                  <li>Use ResNet=50 model to extract features from Caltech101 datasets, train a K nearest-neighbors
+                    model using the brute-force algorithm to find the nearest n neighbors based on Euclidean distance.
+                  </li>
+                  <li>Based on less distance, top n images are returned.</li>
+                  <li> Also some analysis on how to increase speed and accuracy is given.</li>
+                </ul>
+                <div class="card-action">
+                  <!-- <a aria-label="Visit " href="" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a> -->
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/sushant097/Reverse-Image-Search-" target="_blank" data-position="top"
+                    data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Celebrity Face Image Generation with DCGAN -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of web app" src="/assets/img/img/celebriti_new_60_epochs.gif"
+                  style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Celebrity Face Image Generation with GANs<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Fake Celebrity face image generate with DCGAN trained on Kaggle Celebrities 100k Dataset.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title teal-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Python, PyTorch</li>
+                  <li>Architecture: DCGAN</li>
+                  <li>DCGAN Paper Implementation with some improvements</li>
+                  <li>Trained for 60 epochs, output is satisfactory</li>
+
+                </ul>
+                <div class="card-action">
+                  <!-- <a aria-label="Visit Blog website" href="https://flask-heroku-blog.herokuapp.com/" target="_blank"
+                    data-position="top" data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a> -->
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/sushant097/Deep-Learning-Paper-Scratch-Implementation/tree/master/GANs/DCGAN_Celebrity_Generation" target="_blank" data-position="top"
+                    data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of web app" src="/assets/img/img/music-generation-ai.jpg"
+                  style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Music Generation with AI<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  A simple and extensible generating Music with Char ABC notation similar to Irish folk song with LSTM
+                  in Keras.
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title teal-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tools:</b> Python, Keras, cuda</li>
+                  <li>Trained with char ABC notation with char rnn model</li>
+                  <li>Accuracy: 80% and loss: 0.6</li>
+
+
+                </ul>
+                <div class="card-action">
+                  <!-- <a aria-label="Visit Blog website" href="https://flask-heroku-blog.herokuapp.com/" target="_blank"
+                    data-position="top" data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a> -->
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/sushant097/Music-Generation-Char-RNN" target="_blank" data-position="top"
+                    data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <!-- Languages and Databases -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Languages and Databases</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML5
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS3
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" />MySQL
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/postgresql-logo.png" class="responsive-img" />PostgreSQL
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/shell-logo-1-300x300.jpg" class="responsive-img" />Shell Scripting
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Libraries</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/numpy-logo-1-500x500.jpg" class="responsive-img" />NumPy
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/opencv-logo-1-500x500.jpg" class="responsive-img" />OpenCV
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/sk-learn-logo-1-500x500.jpg" class="responsive-img" />scikit-learn
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/matplotlib-logo-1-500x500.jpg" class="responsive-img" />matplotlib
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Frameworks</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/django-logo.webp" class="responsive-img" />Django
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/flask-logo.png" class="responsive-img" />Flask
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/bootstrap.png" class="responsive-img" />Bootstrap
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/keras-logo.png" class="responsive-img" />Keras
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/tensorflow-logo-1.png" class="responsive-img" />TensorFlow
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />PyTorch
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Other -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Other</h4>
+            <div class="row text-center">
+
+
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/aws.png" class="responsive-img" />AWS
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/heroku.png" class="responsive-img" />Heroku
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- certifications -->
+        <!-- <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Certificates</h4>
+            <div class="row text-left">
+              <div class="container">
+                <div class="row">
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="/assets/img/mooc-machine-learning-coursera-800x500.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-image">
+                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg">
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title teal-text">convolutional neural network</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+        <div class="row">
+          <!-- Education -->
+
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a target="_blank"
+                      class="teal-text hoverline">University of Technology (Yatanarpon Cyber City)</a></span>
+                </p>
+                <p class="brown-text"><span><b>Degree: </b>Bachelor of Engineering (Electronics Engineering)</span></p>
+
+              </div>
+              <div class="card-action">
+                <span>2012-2018 | Pyin Oo Lwin, Myanmar</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  <span class="card-title"><a href='https://mib.edu.mm/' target="_blank"
+                      class="teal-text hoverline">Myanmar Institute of Business and Finance (MIB)</a></span>
+                </p>
+                <p class="brown-text">
+                  <span><b>Degree: </b>ABE Professional Diploma in Artificial Intelligence
+                </span></p>
+
+              </div>
+              <div class="card-action">
+                <span>Jan/2019 - May/2019 | Yangon, Myanmar</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+
+        <p>
+          <a aria-label="Email Moe" href="mailto:mhtoo1011@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Moe" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Moe" href="mailto:mhtoo1011@gmail.com"
+              class="hoverline">mhtoo1011@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Moe on GitHub" href="http://github.com/cv-zmh" target="_blank" data-position="top"
+            data-tooltip="View Moe on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Moe on Github" href="http://github.com/cv-zmh" class="hoverline"
+              target="_blank">github.com/cv-zmh</a></a>
+        </p>
+        <p>
+          <a aria-label="View Moe on LinkedIn" href="http://linkedin.com/in/zin-moe-htoo" target="_blank"
+            data-position="top" data-tooltip="View Moe on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Moe on LinkedIn" href="http://linkedin.com/in/zin-moe-htoo"
+              class="hoverline" target="_blank">linkedin.com/in/zin-moe-htoo</a></a>
+        </p>
+        <p>
+          <a aria-label="Call Moe" data-position="top" data-tooltip="Call Moe"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
+              aria-label="Call Moe">+xxxxxxxxxx</a></a>
+        </p>
+        <!-- <p>
+          <a aria-label="View Moe on Medium" href="https://moe.medium.com/" target="_blank" data-position="top"
+            data-tooltip="View Moe on Medium"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-medium"></i><a
+              aria-label="Moe on LinkedIn" href="https://moe.medium.com/" class="hoverline"
+              target="_blank">https://moe.medium.com/</a></a>
+        </p> -->
+      </div>
+    </section>
+  </main>
+
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+
+<!-- <script src="script_help.js"></script> -->
+
+
+<!-- typed.js -->
+<script src="assets/vendor/typed.js/typed.min.js"></script>
+<script type="text/javascript">
+  var typed = new Typed('.typing', {
+    strings: ["Computer Vision Engineer", "self-taught programmer"],
+    loop: true,
+    typeSpeed: 75,
+    backSpeed: 55
+  });
+</script>
+</body>
+
+</html>
